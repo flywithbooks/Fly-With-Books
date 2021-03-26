@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Donate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dashb.css">
+    <link rel="stylesheet" href="./dashb2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./navb.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="container">
+
+            <form action="../ThankYou/thankyou.html" style="max-width:500px;margin:auto">
+                <h1>
+                    <center>DONATION FORM</center>
+                </h1>
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field" type="text" placeholder="First Name" name="fstnm">
+                    <input class="input-field" type="text" placeholder="Last Name" name="lsnm">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="text" placeholder="Email" name="email">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-phone icon"></i>
+                    <input class="input-field" type="text" placeholder="Phone Number" name="email">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-book icon"></i>
+                    <input class="input-field" type="number" min="1" placeholder="Quantity Of Books" name="QuantityOfBooks">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-home icon"></i>
+                    <input class="input-field" type="Name" placeholder="Door No" name="doorno">
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-map-pin icon"></i>
+                    <input class="input-field" type="Name" placeholder="Landmark" name="landmark">
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-home icon"></i>
+                    <input class="input-field" type="Address" placeholder="City/Town" name="city">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa fa-home icon"></i>
+                    <label for="country"></label>
+                    <select id="country" name="State">
+
+                    <option value="Select State">Select State</option>
+                    
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                    
+                    </select>
+                </div>
+                <div class="input-container">
+                    <i class="fa fa-home icon"></i>
+                    <input class="input-field" type="PinCode" placeholder="Pin Code" name="pincode">
+                </div>
+
+                <button type=" submit " class="btn ">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            alert("You have donated books, Thank You! ");
+        }
+    </script>
+</body>
+
+</html>
